@@ -5,5 +5,5 @@ This project demonstrates a simple keylogger built with Python using the pynput 
 
 Features:
 Logs all key presses except modifier keys (Shift, Ctrl, Alt).
-Replaces special keys with human-readable labels (e.g., <Enter>, <Space>).
+Replaces special keys with human-readable labels (e.g.<Enter>, <Space>).
 Records timestamps when at least 10 seconds have passed since the last logged key.
