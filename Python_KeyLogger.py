@@ -35,7 +35,7 @@ def write_key_file(key):
         return
 
     # Check time and log only if 10 seconds have passed
-    if (current_time - last_logged_time).seconds >= 10:
+    if (current_time - last_logged_time).seconds >= 5:
         timestamp = current_time.strftime("%d/%m/%Y %H:%M:%S")
         with open("log.txt", "a") as logKey:
             logKey.write(f"\n[{timestamp}] ")
